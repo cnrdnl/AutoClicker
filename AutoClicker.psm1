@@ -54,7 +54,7 @@ public static void RightClick(){
 			} else {
 				[AutoClicker.Temp]::LeftClick()
 			}
-			sleep -Milliseconds $Interval
+			Start-Sleep -Milliseconds $Interval
 		}
 	}
 }
